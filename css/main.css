@@ -1,0 +1,55 @@
+#headtab
+{
+  left: 0;
+  top: 0;
+  height: 12%;
+  width: 100%;
+  padding-left: 2%;
+
+  font-family: arial;
+  position: fixed;
+  background-color: #7893bf;
+}
+
+.headtab_title {
+  padding-top: 2%;
+  padding-left: 5%;
+  font-size: 32px;
+  color: white;
+}
+
+.headtab_button {
+  padding-top: 1%;
+  position: absolute;
+}
+
+#parr
+{
+  background-image: url("banner.png");
+  background-repeat:no-repeat;
+  background-attachment: fixed;
+	background-position: center;
+	height: 100%;
+  right:0;
+}
+
+body {
+	background: linear-gradient(#5D5D5D , #1C1C1C);
+}
+
+p{
+  font-family: arial;
+  word-wrap: normal;
+}
+
+h1{
+  font-family: arial;
+}
+
+.maintext {
+  padding: 20px;
+  left: 10%;
+  background-color: white;
+  width: 80%;
+  position: relative;
+}
