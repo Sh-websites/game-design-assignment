@@ -1,55 +1,151 @@
-#headtab
-{
+.headtab {
+  background-color: #436499;
+  right: 0;
   left: 0;
   top: 0;
-  height: 12%;
-  width: 100%;
-  padding-left: 2%;
-
-  font-family: arial;
+  padding-top: 0.5px;
+  padding-bottom: 0.5px;
+  padding-left: 30px;
   position: fixed;
-  background-color: #7893bf;
+  z-index: 10;
 }
 
-.headtab_title {
-  padding-top: 2%;
-  padding-left: 5%;
-  font-size: 32px;
+h1 {
+  font-size:30pt;
+  font-family: arial;
   color: white;
 }
 
-.headtab_button {
-  padding-top: 1%;
-  position: absolute;
+h2 {
+  font-size:22pt;
+  font-family: arial;
+  color: black;
 }
 
-#parr
-{
+.parr {
+  /* The image used */
   background-image: url("banner.png");
-  background-repeat:no-repeat;
+
+  margin-left: 0;
+  margin-right: 0;
+
+  /* Set a specific height */
+  min-height: 600;
+
+  /* Create the parallax scrolling effect */
   background-attachment: fixed;
-	background-position: center;
-	height: 100%;
-  right:0;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+
+  z-index = -10;
+}
+
+.parr2 {
+  /* The image used */
+  background-image: url("banner2.jpg");
+
+  margin-left: 0;
+  margin-right: 0;
+
+  /* Set a specific height */
+  min-height: 600;
+
+  /* Create the parallax scrolling effect */
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+
+  z-index = -10;
+}
+
+#headtab-more {
+  position: absolute;
+  right: 3%;
+  vertical-align: middle;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  padding-left: 30px;
+}
+
+.bottomtitle {
+  color: #e3ebfc;
+  bottom: 18;
+  left:  50%;
+  position: absolute;
+  text-align: center;
+  font-weight: bold;
+  font-family: arial;
+  font-size: 30pt;
 }
 
 body {
-	background: linear-gradient(#5D5D5D , #1C1C1C);
+  height:1000px;
+  background-color: #595959;
+  top: 100%;
 }
 
-p{
+.textbox {
+  text-align: left;
+  padding: 10px;
+  padding-left: 35px;
+  padding-right: 25px;
+  margin-left: 10%;
+  margin-right: 10%;
+  background-color: #c4c4c4;
+  z-index: 2;
+  text-wrap: normal;
+}
+
+p {
+  font-size: 14pt;
   font-family: arial;
-  word-wrap: normal;
 }
 
-h1{
+p1 {
+  text-align: center;
+  font-size: 10pt;
+  font-family: arial;
+  color: #2b2b2b;
+}
+
+/*todo*/
+#dropdown {
+  position: absolute;
+  top: 10%;
+  height: 50%;
+  width: 100%;
+  background-color:#282828;
+  overflow:auto;
+  left: 0;
+}
+
+.dropdowntext
+{
+  color: white;
+  font-size: 14pt;
   font-family: arial;
 }
 
-.maintext {
-  padding: 20px;
-  left: 10%;
-  background-color: white;
-  width: 80%;
+a {
+	color: #36a8c9;
+}
+a:link {
+    text-decoration: none;
+}
+a:visited {
+    text-decoration: none;
+}
+a:hover {
+    text-decoration: none;
+	color: #72c3da;
+}
+a:active {
+    text-decoration: none;
+}
+
+.imageGM {
   position: relative;
+  text-align: center;
 }
