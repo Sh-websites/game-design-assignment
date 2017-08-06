@@ -60,6 +60,69 @@ h2 {
   z-index = -10;
 }
 
+.parr3 {
+  /* The image used */
+  background-image: url("https://puu.sh/x2W33/c4a295822a.png");
+
+  margin-left: 0;
+  margin-right: 0;
+
+  /* Set a specific height */
+  min-height: 600;
+
+  /* Create the parallax scrolling effect */
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+
+  z-index = -10;
+}
+
+.parr4 {
+  /*
+  TODO
+  Just get some image of the main interface
+  */
+  background-image: url("https://puu.sh/x2W33/c4a295822a.png");
+
+  margin-left: 0;
+  margin-right: 0;
+
+  /* Set a specific height */
+  min-height: 600;
+
+  /* Create the parallax scrolling effect */
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+
+  z-index = -10;
+}
+
+.parr5 {
+  /*
+  TODO
+  Just get some image of the level select
+  */
+  background-image: url("https://puu.sh/x2W33/c4a295822a.png");
+
+  margin-left: 0;
+  margin-right: 0;
+
+  /* Set a specific height */
+  min-height: 600;
+
+  /* Create the parallax scrolling effect */
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+
+  z-index = -10;
+}
+
 #headtab-more {
   position: absolute;
   right: 3%;
@@ -121,11 +184,21 @@ p1 {
   left: 0;
 }
 
-.dropdowntext
-{
+.dropdowntext{
   color: white;
   font-size: 14pt;
   font-family: arial;
+  padding-left: 18px;
+}
+
+.dropdowncredit {
+  color: white;
+  font-size: 14pt;
+  font-family: arial;
+  text-align: right;
+  right: 3px;
+  top: 87%;
+  position: absolute;
 }
 
 a {
